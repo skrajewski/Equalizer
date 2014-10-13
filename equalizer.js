@@ -17,7 +17,7 @@ var Equalizer = (function () {
      * @constructor
      */
     function Equalizer(blocks) {
-        if (!this instanceof Equalizer) {
+        if (!(this instanceof Equalizer)) {
             return new Equalizer(blocks);
         }
 

@@ -1,0 +1,31 @@
+{
+  "name": "Equalizer",
+  "main": "dist/equalizer.min.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/szykra/Equalizer",
+  "authors": [
+    "Szymon Krajewski <szykra@gmail.com>"
+  ],
+  "description": "A simple way to keep elements with equal height without jQuery!",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "vanilliajs",
+    "equalizer",
+    "js",
+    "height",
+    "dom",
+    "equal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
