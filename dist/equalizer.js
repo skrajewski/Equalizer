@@ -14,7 +14,6 @@
  *
  * @author Szymon Krajewski szykra@gmail.com
  * @license The MIT License (MIT)
- * 
  */
 var Equalizer = (function () {
     "use strict";
@@ -44,9 +43,7 @@ var Equalizer = (function () {
         for (i = 0; i < max; i += 1) {
             this.blocks[i].style.minHeight = "";
 
-            if (this.blocks[i].clientHeight > maxHeight) {
-                maxHeight = this.blocks[i].clientHeight;
-            }
+            maxHeight = Math.max(maxHeight, this.blocks[i].clientHeight);
         }
 
         for (i = 0; i < max; i += 1) {

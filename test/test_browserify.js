@@ -1,4 +1,4 @@
-var Equalizer = require('../dist/equalizer.js'),
+var Equalizer = require('../'),
 	eq = new Equalizer('div');
 
 eq.align();

@@ -1,6 +1,6 @@
 {
   "name": "equalizer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple way to keep elements with equal height without jQuery!",
   "main": "dist/equalizer.min.js",
   "directories": {
@@ -29,7 +29,7 @@
     "dom",
     "equal"
   ],
-  "author": "Szymon Krajewski",
+  "author": "Szymon Krajewski <szykra@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/szykra/Equalizer/issues"

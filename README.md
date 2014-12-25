@@ -1,4 +1,4 @@
-Equalizer 0.1.0
+Equalizer
 ===========================
 
 A simple way to keep elements with equal height without jQuery!
