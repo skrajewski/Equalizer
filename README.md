@@ -1,7 +1,10 @@
 Equalizer
 ===========================
+![npm version](https://img.shields.io/npm/v/equalizer.svg?style=flat-square)
+![bower version](https://img.shields.io/bower/v/equalizer.svg?style=flat-square)
+![dependencies](https://img.shields.io/david/szykra/equalizer.svg?style=flat-square)
 
-A simple way to keep elements with equal height without jQuery!
+Dependency free package to keep HTML elements with equal height!
 
 ## Install
 
