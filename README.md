@@ -2,8 +2,8 @@ Equalizer
 ===========================
 ![npm version](https://img.shields.io/npm/v/equalizer.svg?style=flat-square)
 ![bower version](https://img.shields.io/bower/v/equalizer.svg?style=flat-square)
-![dependencies](https://img.shields.io/david/szykra/equalizer.svg?style=flat-square)
-![devDependencies](https://img.shields.io/david/dev/szykra/equalizer.svg?style=flat-square)
+![dependencies](https://img.shields.io/david/skrajewski/equalizer.svg?style=flat-square)
+![devDependencies](https://img.shields.io/david/dev/skrajewski/equalizer.svg?style=flat-square)
 
 Dependency free package to keep HTML elements with equal height!
 
