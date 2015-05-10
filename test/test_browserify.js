@@ -1,4 +1,6 @@
-var Equalizer = require('../'),
-	eq = new Equalizer('div');
+var Equalizer = require('../');
+var equalizerString = new Equalizer('div');
+var equalizerBlock = new Equalizer(document.querySelectorAll('article'));
 
-eq.align();
+equalizerString.align();
+equalizerBlock.align();

@@ -10,9 +10,9 @@ var Equalizer = (function () {
     "use strict";
 
     /**
-     * Initial the equalizer with 
+     * Initial equalizer
      *
-     * @param {String} blocks
+     * @param {String|NodeList} blocks
      * @constructor
      */
     function Equalizer(blocks) {
@@ -20,7 +20,12 @@ var Equalizer = (function () {
             return new Equalizer(blocks);
         }
 
-        this.blocks = document.querySelectorAll(blocks);
+        if (typeof blocks === "string") {
+            this.blocks = document.querySelectorAll(blocks);
+            return;
+        }
+
+        this.blocks = blocks;
     }
 
     /**
