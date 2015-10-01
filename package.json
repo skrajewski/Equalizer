@@ -1,6 +1,6 @@
 {
   "name": "equalizer",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A simple way to keep elements with equal height without jQuery!",
   "main": "dist/equalizer.min.js",
   "directories": {
@@ -10,7 +10,7 @@
     "gulp": "^3.8.8",
     "gulp-jslint": "^0.2.0",
     "gulp-rename": "^1.2.0",
-    "gulp-umd": "^0.1.3",
+    "gulp-umd": "^0.2.0",
     "gulp-uglify": "^1.0.1",
     "requirejs": "^2.1.15"
   },
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/szykra/Equalizer.git"
+    "url": "https://github.com/skrajewski/Equalizer.git"
   },
   "keywords": [
     "vaniliajs",
@@ -32,7 +32,7 @@
   "author": "Szymon Krajewski <szykra@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/szykra/Equalizer/issues"
+    "url": "https://github.com/skrajewski/Equalizer/issues"
   },
-  "homepage": "https://github.com/szykra/Equalizer"
+  "homepage": "https://github.com/skrajewski/Equalizer"
 }
