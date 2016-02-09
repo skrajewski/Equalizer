@@ -72,4 +72,4 @@ Equalizer('.row .align').align();
 ```
 
 ## License
-The MIT License. Copyright &copy; 2014 - 2015 Szymon Krajewski.
+The MIT License. Copyright &copy; 2014 - 2016 Szymon Krajewski.
