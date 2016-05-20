@@ -7,6 +7,19 @@ Equalizer
 
 Dependency free package to keep HTML elements with equal height!
 
+## Preinstall - maybe you should use flexbox?
+Hey, maybe you even don't need any extra package to control this behaviour. If you can you should use `flexbox`, just add this css...
+
+```css
+section {
+    display: flex;
+}
+```
+
+Tada! All blocks inside section should have equal height.
+* [Check flexbox in caniuse.com](http://caniuse.com/#feat=flexbox)
+* [See example in my test directory](https://github.com/skrajewski/Equalizer/blob/master/test/test_flexbox.html)
+
 ## Install
 
 #### Using _bower_
